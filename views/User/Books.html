@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>User Dashboard</title>
+</head>
+
+<body>
+    <div>
+        <!-- Main Content -->
+        <div class="flex h-screen">
+            <!-- Side Navbar -->
+            <div class="bg-white w-64 flex flex-col shadow-xl rounded-lg justify-between">
+                <h1 class="text-2xl font-semibold p-3 mt-6">
+                    Library Management
+                </h1>
+                <nav class="flex-1 mt-12">
+                    <a href="/views/User/Dashboard.html" class="block p-4 hover:bg-gray-200">Dashboard</a>
+                    <a href="/views/User/Books.html" class="block p-4 hover:bg-gray-200">Books</a>
+                    <a href="#" class="block p-4 hover:bg-gray-200">Issued</a>
+                    <a href="#" class="block p-4 hover:bg-gray-200">Returned</a>
+                    <a href="#" class="block p-4 hover:bg-gray-200">Not Return</a>
+                    <a href="#" class="block p-4 hover:bg-gray-200">Settings</a>
+                </nav>
+                <div class="p-4">
+                    <a href="#" class="block text-red-500 hover:text-red-600">Logout</a>
+                </div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="flex-1">
+                <h1 class="text-3xl font-bold m-8">Books</h1>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
